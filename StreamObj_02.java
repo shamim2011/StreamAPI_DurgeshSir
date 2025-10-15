@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+// All Stream Objects
 public class StreamObj_02 {
 	public static void main(String[] args) {
 		// 1-Blank
@@ -21,7 +22,6 @@ public class StreamObj_02 {
 		stream.forEach(e->{
 			System.out.println(e);
 		});
-		
 		
 	}
 }
