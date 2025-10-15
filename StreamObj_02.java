@@ -19,9 +19,11 @@ public class StreamObj_02 {
 		
 		// Annonimous int array stream
 		IntStream stream = Arrays.stream(new int[] {2,3,4,5,6});
-		stream.forEach(e->{
-			System.out.println(e);
-		});
+//		stream.forEach(e->{
+//			System.out.println(e);
+//		});
+		
+		stream.forEach(System.out::println);
 		
 	}
 }
