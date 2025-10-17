@@ -14,11 +14,12 @@ public class StreamMethod_03 {
 		
 		// Each element operation
 		
+		// filter(Predicate) -> size will be reduce after operation
 		List<String> names = List.of("Samim","Mohon","Durgesh","Korim","Danesh");
 		List<String> newNames =  names.stream().filter(e->e.startsWith("D")).collect(Collectors.toList());
 		System.out.println(newNames);
 		
-		//map(Function)
+		//map(Function) -> Same size will be there before and after
 		List<Integer> numbers = Arrays.asList(10,3,4,2,5,4,6);
 		List<Integer> newNumbers =  numbers.stream().map(i->i*i).collect(Collectors.toList());
 		System.out.println(newNumbers);
