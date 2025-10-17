@@ -21,6 +21,6 @@ public class Dist_Limit_Count_07 {
         
         // Limit operation   --> terminal method
         System.out.println("Printing the elements: ");
-        vehicles.stream().limit(5).forEach(e->System.out.println(e));
+        vehicles.stream().limit(5).forEach(e->System.out.print(e+" "));
     }
 }
